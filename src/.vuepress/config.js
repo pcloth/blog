@@ -25,7 +25,14 @@ module.exports = {
                     {
                         text: 'Django',
                         items: [
-                            { text: '设计一个权限系统', link: '/python/django/permission.md' }
+                            { text: '设计一个权限系统', link: '/python/django/permission.md' },
+                            { text: '给Django添加websocket', link: '/python/django/websocket.md' },
+                        ]
+                    },
+                    {
+                        text: 'Flask',
+                        items: [
+                            { text: '给Flask添加websocket', link: '/python/flask/websocket.md' },
                         ]
                     },
                 ]
