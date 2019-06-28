@@ -17,7 +17,7 @@
                     <span v-else>{{feature.title}}</span>
                 </h2>
                 <p v-if="feature.details && feature.link">
-                    <a :href="feature.link">{{feature.details}}</a>
+                    <a :href="'.'+feature.link">{{feature.details}}</a>
                 </p>
                 <p v-else>{{ feature.details }}</p>
             </div>

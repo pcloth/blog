@@ -7,7 +7,7 @@
     <meta name="description" content="技术整理博客">
     
     
-    <link rel="preload" href="/blog/assets/css/0.styles.a0705b7e.css" as="style"><link rel="preload" href="/blog/assets/js/app.2b75318a.js" as="script"><link rel="preload" href="/blog/assets/js/9.52ab9eab.js" as="script"><link rel="prefetch" href="/blog/assets/js/10.7c87bb2d.js"><link rel="prefetch" href="/blog/assets/js/2.ce7e6bdb.js"><link rel="prefetch" href="/blog/assets/js/3.5a292fcb.js"><link rel="prefetch" href="/blog/assets/js/4.1f7bbb09.js"><link rel="prefetch" href="/blog/assets/js/5.39661788.js"><link rel="prefetch" href="/blog/assets/js/6.fe8f6a0b.js"><link rel="prefetch" href="/blog/assets/js/7.84e88663.js"><link rel="prefetch" href="/blog/assets/js/8.f7b751ae.js">
+    <link rel="preload" href="/blog/assets/css/0.styles.a0705b7e.css" as="style"><link rel="preload" href="/blog/assets/js/app.e99717fb.js" as="script"><link rel="preload" href="/blog/assets/js/9.52ab9eab.js" as="script"><link rel="prefetch" href="/blog/assets/js/10.7c87bb2d.js"><link rel="prefetch" href="/blog/assets/js/2.ce7e6bdb.js"><link rel="prefetch" href="/blog/assets/js/3.5a292fcb.js"><link rel="prefetch" href="/blog/assets/js/4.1f7bbb09.js"><link rel="prefetch" href="/blog/assets/js/5.39661788.js"><link rel="prefetch" href="/blog/assets/js/6.fe8f6a0b.js"><link rel="prefetch" href="/blog/assets/js/7.84e88663.js"><link rel="prefetch" href="/blog/assets/js/8.f7b751ae.js">
     <link rel="stylesheet" href="/blog/assets/css/0.styles.a0705b7e.css">
   </head>
   <body>
@@ -71,6 +71,6 @@ sockets<span class="token punctuation">.</span>register_blueprint<span class="to
 </code></pre></div><h2 id="部署"><a href="#部署" aria-hidden="true" class="header-anchor">#</a> 部署</h2> <p><code>Flask-Sockets</code>集成了gunicorn的部署支持，很方便</p> <div class="language-sh extra-class"><pre class="language-text"><code>gunicorn -k flask_sockets.worker manage:app -c gunicorn.conf
 </code></pre></div><p>使用 -k 参数指定 flask_sockets.worker 作为worker或者直接在gunicorn.conf里配置上</p> <div class="language-python extra-class"><pre class="language-python"><code>worker_class<span class="token operator">=</span><span class="token string">&quot;flask_sockets.worker&quot;</span>
 </code></pre></div></div> <div class="page-edit"><!----> <div class="last-updated"><span class="prefix">Last Updated: </span> <span class="time">6/28/2019, 2:02:08 PM</span></div></div> <!----> </div> <!----></div></div>
-    <script src="/blog/assets/js/app.2b75318a.js" defer></script><script src="/blog/assets/js/9.52ab9eab.js" defer></script>
+    <script src="/blog/assets/js/app.e99717fb.js" defer></script><script src="/blog/assets/js/9.52ab9eab.js" defer></script>
   </body>
 </html>
